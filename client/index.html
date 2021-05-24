@@ -5,7 +5,11 @@
   </head>
   <body>
     <div class="main">
-      <table id='here'>
+      <div class="score-board">
+        <div class="player-x-score">Player X Wins: <span class="x-wins score"></span></div>
+        <div class="player-o-score">Player O Wins: <span class="o-wins score"></span></div>
+      </div>
+      <table class="game-grid">
         <tr>
           <td></td>
           <td></td>
@@ -22,6 +26,8 @@
           <td></td>
         </tr>
       </table>
+      <div class="game-result"></div>
+      <button class="reset-button">Reset Gameboard</button>
     </div>
   </body>
   <script src="app.js"></script>

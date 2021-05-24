@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  max-width: 248px;
+}
+
+.score-board {
+  padding: 15px 0px 0px 20px;
+  font-family: fantasy;
+  max-width: 148px;
+}
+
+.score {
+  float: right;
+}
+
+.game-grid {
+  padding: 15px;
+}
+
+.game-square {
+  font-size: 20px;
+  font-family: fantasy;
+  padding: 20px 25px;
+  border: solid 1px #a7a7a7;
+  height: 70px;
+  width: 70px;
+}
+
+.game-result {
+  display: block;
+  text-align: center;
+  padding: 0px 0px 10px 0;
+  font-size: 25px;
+  color: red;
+  font-family: fantasy;
+}
+
+.reset-button {
+  margin: auto;
+  display: block;
+}
